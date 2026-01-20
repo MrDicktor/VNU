@@ -13,8 +13,6 @@ async def start(update, context):
     await update.message.reply_text("Введіть назву групи")
     return 2
 
-def add():
-    return 1
 
 async def show_data(update, context):
     result = await pars.save_data(update, context)
